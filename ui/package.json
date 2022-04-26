@@ -1,0 +1,45 @@
+{
+  "name": "cs648-spring-assignment7-ui",
+  "version": "1.0.0",
+  "description": "CS 648 Spring Assignment 7 UI",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm --openssl-legacy-provider  run compile && nodemon -w uiserver.js -w .env uiserver.js",
+    "lint": "eslint . --ext js,jsx --ignore-pattern public",
+    "compile": "webpack --mode production",
+    "watch": "webpack --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.26.0",
+    "bootstrap": "^5.1.3",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "react": "^17.0.2",
+    "react-bootstrap": "^2.3.0",
+    "react-dom": "^17.0.2",
+    "react-router-bootstrap": "^0.26.1",
+    "react-router-dom": "^6.3.0",
+    "url-search-params": "^1.1.0",
+    "whatwg-fetch": "^3.6.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.12.13",
+    "@babel/core": "^7.12.13",
+    "@babel/preset-env": "^7.12.13",
+    "@babel/preset-react": "^7.12.13",
+    "babel-loader": "^8.2.5",
+    "css-loader": "^6.7.1",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb": "^17.1.1",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-react": "^7.22.0",
+    "nodemon": "^2.0.7",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.72.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-middleware": "^4.1.0",
+    "webpack-hot-middleware": "^2.25.0"
+  }
+}

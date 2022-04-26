@@ -1,0 +1,27 @@
+{
+  "name": "cs648-spring-assignment7-api",
+  "version": "1.0.0",
+  "description": "CS 648 Spring Assignment 7 API",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon -e js, graphql -w . -w .env server.js",
+    "lint": "eslint --fix.",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jacob Byerline",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server-express": "^2.21.0",
+    "core-js": "^3.21.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "graphql": "^15.5.0",
+    "mongodb": "^3.6.5"
+  },
+  "devDependencies": {
+    "eslint": "^8.10.0",
+    "eslint-config-airbnb-base": "^13.2.0",
+    "eslint-plugin-import": "^2.25.4",
+    "nodemon": "^2.0.7"
+  }
+}
