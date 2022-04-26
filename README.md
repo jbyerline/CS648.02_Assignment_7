@@ -1,4 +1,4 @@
-# CS648.02_Assignment_6 - Jacob Byerline
+# CS648.02_Assignment_7 - Jacob Byerline
 ## React + Express.js + Node.js + GraphQL + Apollo
 
 This is a demonstration website using React JS, Express.js, Node.js, and MongoDB.
@@ -15,6 +15,7 @@ Our website serves to demo the following:
 - Apollo
 - MongoDB
 - React Bootstrap
+- Mongo Aggregation
 
 I hope you find this repo useful.
 
